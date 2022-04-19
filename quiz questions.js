@@ -206,7 +206,7 @@ function processInput(event) {
     const score = totalTime;
     const highscoreEntry = getNewHighscoreEntry(initials, score);
     saveHighscoreEntry(highscoreEntry);
-    window.location.href= "./highscores.html";
+    window.location.href= "./Quiz Highscore.HTML";
   }
 }
 
